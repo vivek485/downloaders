@@ -1,0 +1,29 @@
+git clone https://github.com/MrTusarRX/YouTube-Video-Downloader.git
+cd YouTube-Video-Downloader
+chmod +x downTube.sh
+./downTube.sh
+
+
+
+command
+yt-dlp -S "res:480" -- "https://www.youtube.com/watch?v=dGiZup6AtJE"
+
+
+
+yt-dlp -f 'abc_01+audio_02' --merge-output-format mp4 <video-url>
+
+step 1:
+run
+yt-dlp -F  -- "https://www.youtube.com/watch?v=dGiZup6AtJE"
+
+step 2
+see video and audio code then
+
+yt-dlp -f '298+599' --merge-output-format mp4 -- "https://www.youtube.com/watch?v=dGiZup6AtJE"
+
+for login
+
+
+yt-dlp --cookies-from-browser chrome --cookies cookies.txt -f '298+599' --merge-output-format mp4 -- "https://www.youtube.com/watch?v=dGiZup6AtJE"
+
+
